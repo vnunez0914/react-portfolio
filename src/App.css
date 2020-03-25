@@ -67,13 +67,27 @@ nav ul li{
   bottom: 60px;
 }
 
-.social i {
+.social, i {
   padding-right: 30px;
   font-size: 25px;
   color: #9a9b9c;
 }
 
-.social i: hover
+.social i hover
 {
   color: #ffffff;
+}
+
+/* About component CSS */
+
+.subtopic {
+  margin: 10px 10px 30px 10px !important;
+}
+
+p {
+  font-size: var(--fontsize-p);
+}
+
+h1, h2, h3, h4, p {
+  margin: 10px;
 }

@@ -4,6 +4,7 @@ import './App.css';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import NavBar from './Components/NavBar';
 import Home from './contents/Home'
+import About from './contents/About'
 
 
 function App() {
@@ -12,12 +13,21 @@ function App() {
       <div className="App">
 
         <NavBar/>
+        {/* Route for Home.js contents */}
         <Route exact path="/">
 
           <Home />
 
         </Route>
 
+        {/* Route for About.js contents */}
+        <Route path="/about">
+
+          <About />
+
+        </Route>
+
+      
       </div>
     </Router>
   );

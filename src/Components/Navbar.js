@@ -4,25 +4,30 @@ import NavItem from "./NavItem";
 
 
 class Navbar extends Component {
+
   constructor(props) {
     super(props);
+    
     this.state = {
-      NavItemActive: ""
+      NavItemActive: ''
     };
   }
   // activeitem() will be sent to NavItem component and wiil be called whenever NavItem "activec" is clicked
-  activeitem = x => {
+  activeitem = (x) => {
+
     if (this.state.NavItemActive.length > 0) {
-      document
-        .getElementById(this.state.NavItemActive)
-        .classList.remove("active");
+      document.getElementById(this.state.NavItemActive).classList.remove('active');
     }
-    this.setState({ NavItemId: x }, () => {
-      document.getElementById(this.state.NavItemActive).classList.add("active");
+    this.setState({ NavItemActive: x }, () => { document.getElementById(this.state.NavItemActive).classList.add('active');
+
     });
+
   };
+
   render() {
+
     return (
+
       <nav>
         {/* NavItem holds two props (item and tolink). "item" holds the nav name and "tolink" prop holds the nav route */}
         <ul>
@@ -32,6 +37,7 @@ class Navbar extends Component {
           <NavItem item="Skills" tolink="/skills" activec={this.activeitem} ></NavItem>
           <NavItem item="Contact" tolink="/contact" activec={this.activeitem} ></NavItem>
         </ul>
+
       </nav>
     );
   }

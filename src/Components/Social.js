@@ -6,8 +6,8 @@ class Social extends Component {
         return (
             <div className="social">
 
-                <a href ="https://github.com/vnunez0914" target="_blank"><i class="fab fa-github"></i></a>
-                <a href ="https://www.linkedin.com/in/victor-x-nunez/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href ="https://github.com/vnunez0914" target="_blank"><i className="fab fa-github"></i></a>
+                <a href ="https://www.linkedin.com/in/victor-x-nunez/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
 
             </div>
         )

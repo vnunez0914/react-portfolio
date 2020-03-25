@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import NavBar from './Components/NavBar';
 import Home from './contents/Home'
 import About from './contents/About'
+import Education from './contents/Education'
 
 
 function App() {
@@ -24,6 +25,13 @@ function App() {
         <Route path="/about">
 
           <About />
+
+        </Route>
+        {/* Route for Education.js contents */}
+
+        <Route path="/education">
+          
+          <Education />
 
         </Route>
 

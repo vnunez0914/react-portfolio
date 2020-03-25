@@ -8,12 +8,12 @@
 --typing-font: 3rem;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: 'Raleway';
 }
 
@@ -52,7 +52,7 @@ body{
 }
 
 /* NavBar style */
-nav{
+nav {
   padding: 60px 30px 0px 30px;
   flex:var(--sidebar-flex);
   background: rgb(238,103, 143);
@@ -60,7 +60,7 @@ nav{
 }
 
 /* nav ul style */
-nav ul{
+nav ul {
   font-size: var(--fontsize-nav);
   text-align: center;
   list-style-type: none;
@@ -128,4 +128,48 @@ h1, h2, h3, h4, p {
   color: #1b1d20;
   background-color: #ffffff;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+}
+
+
+
+@media all and (max-width: 450px) {
+  :root {
+    --fontsize-nav:1rem;
+    --sidebar-flex:0;
+    --typing-font:2rem;
+  }
+  .App
+  {
+    flex-direction: column;
+  }
+  .sidebar
+  {
+    padding: 30px;
+    background: rgb(238,103,143);
+    background: linear-gradient(90deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+  }
+  .condiv
+  {
+    padding: 50px ;
+  }
+  nav ul
+  {
+    display: flex;
+  }
+  nav ul li
+  {
+    margin: 10px;
+  }
+  .social
+  {
+    left:0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    bottom: 30px;
+  }
+  .social i
+  {
+    padding-right: 0px;
+  }
 }

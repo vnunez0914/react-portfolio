@@ -51,3 +51,9 @@ nav ul{
 nav ul li{
   margin: 40px;
 }
+
+
+/* whichever NavItem is clicked it will be styled bold */
+.active{
+  font-weight: bolder;
+}

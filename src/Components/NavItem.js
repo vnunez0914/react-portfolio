@@ -7,8 +7,8 @@ class NavItem extends Component {
 
         //  setting "item" and "tolink" props to the Link component.
         return (
-            <li>
-                <Link to={this.props.tolink} >
+            <li id={this.props.item}>
+                <Link to={this.props.tolink} onClick={this.props.activec.bind(this,this.props.item)} >{this.props.item}
                     {this.props.item}
                 </Link>
             </li>
@@ -16,5 +16,6 @@ class NavItem extends Component {
         )
     }
 }
+
 
 export default NavItem

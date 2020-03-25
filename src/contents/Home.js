@@ -4,11 +4,11 @@ import profilepic from '../img/portfolioPhoto.JPEG';
 
 class Home extends Component {
     render() {
-        return (
+        return(
+            <div className="condivhome">
+                <img src={profilepic} className="profilepic"></img>
 
-         <div className="condiv home">
-             <img src={profilepic} className="profilepic"></img>
-                <ReactTypingEffect className="typingeffect" text={['I am Victor Nunez','I am a Full Stack Web Developer']} speed={100} eraseDelay={700}/>
+                <ReactTypingEffect className="typingeffect" text={['I am Victor Nunez', 'I am a Fullstack Web Developer.']} speed={100} eraseDelay={700}/>
             </div>
         )
     }

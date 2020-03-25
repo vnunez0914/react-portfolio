@@ -3,9 +3,11 @@ import './App.css';
 // BrowserRouter is the parent component that holds all of <Route> components Router is the alias for BrowserRouter
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import NavBar from './Components/NavBar';
-import Home from './contents/Home'
-import About from './contents/About'
-import Education from './contents/Education'
+import Home from './contents/Home';
+import About from './contents/About';
+import Education from './contents/Education';
+import Skills from './contents/Skills';
+import Contact from './contents/Contact'
 
 
 function App() {
@@ -35,6 +37,21 @@ function App() {
 
         </Route>
 
+        {/* Route for Skills.js contents */}
+
+        <Route path="/skills">
+
+          <Skills />
+
+        </Route>
+
+        {/* Route for Contact.js contents */}
+
+        <Route path="/contact">
+
+            <Contact />
+
+        </Route>
       
       </div>
     </Router>

@@ -9,7 +9,7 @@ class Contact extends Component {
 
                 <h3>Email : < a className="contactLink" href="mailto:vnunez0914@gmail.com">vnunez0914@gmail.com</a></h3>
                 <h3>LinkedIn : < a className="contactLink" href="https://www.linkedin.com/in/victor-x-nunez/" target="_new">victor-x-nunez</a></h3>
-
+                <h3>Github: < a className="contactLink" href="https://github.com/vnunez0914" target="_new">Profile</a></h3>
                 <Social />
             </div>
         )

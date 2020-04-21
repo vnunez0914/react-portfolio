@@ -3,7 +3,7 @@ import NavItem from "./NavItem";
 
 
 
-class Navbar extends Component {
+class NavBar extends Component {
 
   constructor(props) {
     super(props);
@@ -42,4 +42,4 @@ class Navbar extends Component {
     );
   }
 }
-export default Navbar;
+export default NavBar;

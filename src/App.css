@@ -139,6 +139,13 @@ h1, h2, h3, h4, p {
   color: blue;
 }
 
+h2 {
+  color: black;
+}
+h2:hover {
+  color: blue;
+}
+
 
 @media all and (max-width: 450px) {
   :root {

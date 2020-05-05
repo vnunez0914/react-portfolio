@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.ed80c30c.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.7464b25f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.7464b25f.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.16748238.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.16748238.js.map",
+    "static/js/2.841c2529.chunk.js": "/react-portfolio/static/js/2.841c2529.chunk.js",
+    "static/js/2.841c2529.chunk.js.map": "/react-portfolio/static/js/2.841c2529.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.35cc0e9dc2f5c688cc4e2d50516d10bc.js": "/react-portfolio/precache-manifest.35cc0e9dc2f5c688cc4e2d50516d10bc.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.ed80c30c.chunk.css.map": "/react-portfolio/static/css/main.ed80c30c.chunk.css.map",
+    "static/js/2.841c2529.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.841c2529.chunk.js.LICENSE.txt",
+    "static/media/portfolioPhoto.JPEG": "/react-portfolio/static/media/portfolioPhoto.edb8f1de.JPEG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16748238.js",
+    "static/js/2.841c2529.chunk.js",
+    "static/css/main.ed80c30c.chunk.css",
+    "static/js/main.7464b25f.chunk.js"
+  ]
+}

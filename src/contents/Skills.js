@@ -34,10 +34,10 @@ class Skills extends Component {
           <h2>FitFix</h2>
         </a>
         <h5>
-          LIRI is like iPhone's SIRI. However, while SIRI is a Speech
-          Interpretation and Recognition Interface, LIRI is a Language
-          Interpretation and Recognition Interface. LIRI will be a command line
-          node app that takes in parameters and gives you back data.
+          Fit fix is a fitness application that help people start there fitness
+          journey. Get access to workout templates that provide recommended sets
+          and repetitions. Each exercise is paired with instructions and a demo
+          video. Track weight and save your favorite exercises.
         </h5>
 
         <a
